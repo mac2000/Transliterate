@@ -9,3 +9,7 @@ Transliterate is a simple class to transliterate strings
 		echo $t->slug('Привет мир');
 	?>
 
+Will produce:
+
+	Privet mir!
+	privet-mir
