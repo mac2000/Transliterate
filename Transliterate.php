@@ -590,7 +590,7 @@ class Transliterate
      * @param string $text
      * @return string
      */
-    public function transliterate($text)
+    public function translit($text)
     {
         $translit = strtr($text, $this->_transliterationRules);        
         $translit = preg_replace('/[ ]+/usi', ' ', $translit);
@@ -606,7 +606,7 @@ class Transliterate
      */
     public function slug($text)
     {
-        $translit = $this->transliterate($text);
+        $translit = $this->translit($text);
         $translit = preg_replace('/[^a-zA-z0-9]+/usi', '-', $translit);
         $translit = trim($translit, '-');
         return (string) $translit;

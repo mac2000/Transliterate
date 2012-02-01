@@ -5,7 +5,7 @@ Transliterate is a simple class to transliterate strings
 	<?php
 		require_once 'Transliterate.php';
 		$t = new Transliterate();
-		echo $t->transliterate('Привет мир');
-		echo $t->slug('Привет мир')
+		echo $t->translit('Привет мир');
+		echo $t->slug('Привет мир');
 	?>
 
