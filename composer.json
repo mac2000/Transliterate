@@ -1,5 +1,5 @@
 {
-    "name": "Mac/Transliterate",
+    "name": "mac/transliterate",
     "description": "Transliterate or slugify text",
     "minimum-stability": "stable",
     "authors": [
