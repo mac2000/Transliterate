@@ -1,9 +1,8 @@
-Transliterate is a simple class to transliterate strings
+Transliterate is a simple class to transliterate and slugify strings
 
 *Usage example*:
 
 	<?php
-		require_once 'Transliterate.php';
 		$t = new Transliterate();
 		echo $t->translit('Привет мир');
 		echo $t->slug('Привет мир');
@@ -11,5 +10,5 @@ Transliterate is a simple class to transliterate strings
 
 Will produce:
 
-	Privet mir!
+	Privet mir
 	privet-mir
